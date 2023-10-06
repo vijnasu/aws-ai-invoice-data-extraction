@@ -41,6 +41,18 @@ Once trained, deploy the models as SageMaker endpoints.
 
 Update the Lambda function in the `lambda/` directory to integrate with the deployed SageMaker endpoints.
 
+### [5. Post-Processing & Application Development](./5_POST_PROCESSING_AND_APPS.md)
+
+After extracting invoice data, post-processing becomes crucial to cleanse, validate, and structure the data, making it ready for application development.
+
+Sample Applications:
+
+**1. Anomaly Detection:** Identify invoices with irregular patterns, which can help spot fraudulent activities or errors.
+**2. Expense Forecasting:** Predict future expenses based on historical invoice data.
+**3. Vendor Analysis:** Analyze vendor performance, invoicing frequency, and payment terms.
+**4. Category-wise Spending Analysis:** Understand how spending is distributed across different categories.
+**5. Invoice Approval Automation:** Automate the approval process for invoices that match specific criteria.
+
 ## Usage
 
 Upload an invoice to the S3 bucket. The system will automatically process the invoice, extract and/or predict required data, store it in the database, and send a notification.

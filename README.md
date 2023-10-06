@@ -23,21 +23,21 @@ Harnessing the power of AWS and AI/ML, this project not only extracts textual da
 
 ## Setup
 
-### 1. Data Collection
+### [1. Data Collection](./1_DATA_COLLECTION.md)
 
 Gather diverse invoice samples and label them using Amazon SageMaker Ground Truth.
 
-### 2. Train ML Models
+### [2. Train ML Models](./2_TRAINING_GUIDE.md)
 
 Use Amazon SageMaker to:
    - Train custom data extraction models.
    - Train Generative AI models for prediction.
 
-### 3. Deploy ML Models
+### [3. Deploy ML Models](./3_DEPLOYMENT_GUIDE.md)
 
 Once trained, deploy the models as SageMaker endpoints.
 
-### 4. Enhanced Lambda Function
+### [4. Enhanced Lambda Function](./4_LAMBDA_INTEGRATION.md)
 
 Update the Lambda function in the `lambda/` directory to integrate with the deployed SageMaker endpoints.
 

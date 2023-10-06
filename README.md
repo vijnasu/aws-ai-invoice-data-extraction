@@ -47,15 +47,15 @@ After extracting invoice data, post-processing becomes crucial to cleanse, valid
 
 Sample Applications:
 
-**5.1 Anomaly Detection:** Identify invoices with irregular patterns, which can help spot fraudulent activities or errors.
+[5.1 Anomaly Detection:](./5.1_ANOMALY_DETECTION.md) Identify invoices with irregular patterns, which can help spot fraudulent activities or errors.
 
-**5.2 Expense Forecasting:** Predict future expenses based on historical invoice data.
+[5.2 Expense Forecasting:](./5.2_EXPENSE_FORECASTING.md) Predict future expenses based on historical invoice data.
 
-**5.3 Vendor Analysis:** Analyze vendor performance, invoicing frequency, and payment terms.
+[5.3 Vendor Analysis:](./5.3_VENDOR_ANALYSIS.md) Analyze vendor performance, invoicing frequency, and payment terms.
 
-**5.4 Category-wise Spending Analysis:** Understand how spending is distributed across different categories.
+[5.4 Category-wise Spending Analysis:](./5.4_SPENDING_ANALYSIS.md) Understand how spending is distributed across different categories.
 
-**5.5 Invoice Approval Automation:** Automate the approval process for invoices that match specific criteria.
+[5.5 Invoice Approval Automation:](./5.5_INVOICE_APPROVAL_AUTOMATION.md) Automate the approval process for invoices that match specific criteria.
 
 ## Usage
 
